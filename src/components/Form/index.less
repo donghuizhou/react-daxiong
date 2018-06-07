@@ -1,0 +1,31 @@
+.sider {
+  background: white;
+}
+
+.canvas {
+  height: 100%;
+}
+
+.dragLayer {
+  position: fixed;
+  pointer-events: none;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.dropTarget {
+  border: 1px dashed #CACACA;
+  position: relative;
+  min-height: 30px;
+}
+
+.active {
+  background: green;
+}
+
+.selected {
+  border: 1px solid red;
+}
